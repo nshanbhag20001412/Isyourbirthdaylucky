@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+body{
+    background-image: url("/Wallpaper.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: 'Staatliches', cursive;
+    color: azure;
+    text-shadow: 2px 2px black;
+    margin:3rem 3rem 0 3rem;
+    background-color: black;
+}
+
+label, textarea,input{
+    padding: 1rem 0  0 1rem ;
+    border: none;
+    font-size:x-large;
+}
+
+button{
+    padding:0.5rem;
+    margin:1rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: 'Staatliches', cursive;
+    font-size:x-large;
+}
+
+#display{
+    color: azure;
+    text-shadow: 3px 3px black;
+    font-family: 'Staatliches', cursive;
+    font-size:xx-large;
+}
+
+/* .footer{
+  text-align: center;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+ } */
