@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
+*,html{
+
+    padding:0;
+    margin:0;
+}
 .container{
     display:flex;
     flex-direction: column;
@@ -15,8 +20,8 @@ body{
     font-family: 'Staatliches', cursive;
     color: azure;
     text-shadow: 2px 2px black;
-    margin:3rem 3rem 0 3rem;
     background-color: black;
+    margin-top: 2rem;
 }
 
 label, textarea,input{
@@ -41,10 +46,25 @@ button{
     font-size:xx-large;
 }
 
-/* .footer{
-  text-align: center;
+.footer{
+    background-color:#fb5a09;
+    padding:1rem 0rem;
+    text-align: center;
+    background-size:cover;
+    color: white;
+    position:absolute;
+   bottom:0px;
+   width:100%;
+   font-size: larger;
 }
-.list-item-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
- } */
+.footer ul{
+    padding-inline-start: 0px;
+    
+}
+
+.link{
+
+    text-decoration: none;
+    color: white;
+    padding:0 5vh;
+}
